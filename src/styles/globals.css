@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Estilos globais */
+body {
+  @apply bg-white text-gray-800;
+}
+
+/* Animações e efeitos */
+.card {
+  @apply transition-transform duration-300 ease-in-out hover:scale-105;
+}
+
+.card img {
+  @apply rounded-md shadow-lg;
+}
+
+.search-bar, .filter-select {
+  @apply w-full p-3 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-400;
+}
